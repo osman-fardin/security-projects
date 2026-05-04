@@ -1,52 +1,24 @@
 # Security Projects
 
-A collection of cybersecurity tools, automation scripts, labs, and experiments built for learning, research, and authorized testing environments.
+Small cybersecurity tools and experiments for learning, CTFs, and authorized lab environments.
 
-## Contents
+## Structure
 
 ```text
-tools/        Security tools and CLI utilities
-scripts/      Automation scripts
-labs/         Local vulnerable labs and practice environments
-experiments/  Research notes and prototypes
-docs/         Documentation
-templates/    Reusable project templates
+projects/    Individual tools or experiments
+templates/   Reusable project README template
 ```
 
-## Project Areas
+## Project Ideas
 
-- Reconnaissance automation
-- Web security testing
-- Log analysis
-- Detection engineering
-- Linux privilege escalation labs
+- Port scanner
+- Log analyzer
+- Subdomain enumerator
 - CTF helper scripts
+- Detection rule experiments
 
 ## Usage Policy
 
-This repository is intended only for:
+Use everything in this repository only in legal, authorized environments.
 
-- Personal cybersecurity learning
-- CTF platforms
-- Local labs
-- Authorized testing environments
-
-Do not use any tool or script against systems without explicit permission.
-
-## Getting Started
-
-```bash
-git clone git@github.com:<username>/security-projects.git
-cd security-projects
-```
-
-## Documentation
-
-- [Setup](docs/setup.md)
-- [Usage](docs/usage.md)
-- [Roadmap](docs/roadmap.md)
-- [Security](docs/security.md)
-
-## License
-
-MIT License.
+Do not commit secrets, credentials, tokens, VPN files, private keys, or private target data.

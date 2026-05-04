@@ -1,72 +1,26 @@
 # Project Name
 
-Short description of what this tool or project does.
+Short description of the tool or experiment.
 
-## Overview
+## Purpose
 
-Explain the purpose of the project.
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Use Cases
-
-- CTF practice
-- Internal lab testing
-- Security learning
-- Defensive analysis
-
-## Requirements
-
-- Python 3.11+
-- Linux / Kali Linux
-
-## Installation
-
-```bash
-git clone https://github.com/<username>/<repo-name>.git
-cd <repo-name>
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+What this project does and why it exists.
 
 ## Usage
 
 ```bash
-python3 src/main.py --target 127.0.0.1
+python3 main.py
 ```
 
-## Configuration
+## Structure
 
-Copy the example environment file:
-
-```bash
-cp .env.example .env
+```text
+README.md
+main.py
+requirements.txt
 ```
 
-Never commit `.env`.
+## Notes
 
-## Security and Ethics
-
-This project is intended for authorized environments only.
-
-Do not run this tool against systems you do not own or do not have explicit permission to test.
-
-## Roadmap
-
-- [ ] Add JSON output
-- [ ] Add unit tests
-- [ ] Add Docker support
-- [ ] Add CI workflow
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md).
-
-## License
-
-MIT License.
+- Use only in authorized environments.
+- Do not commit secrets or private target data.
